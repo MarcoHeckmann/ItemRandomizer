@@ -1,0 +1,9 @@
+name: DropRandomizer
+version: '${version}'
+author: SkyDynamics
+main: jp.softrain.dropRandomizer.Main
+api-version: '1.21.10'
+load: POSTWORLD
+commands:
+  find:
+  randomizer:
