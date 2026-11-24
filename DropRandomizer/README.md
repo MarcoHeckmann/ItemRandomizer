@@ -62,10 +62,13 @@ When any player breaks a block with an undiscovered drop, the whole server sees 
 
 Search which block drops DIAMOND:
 
-```
+```text
 /find diamond
 ```
-```
+
+Example response:
+
+```text
 The block for DIAMOND is STONE
 ```
 
@@ -80,11 +83,13 @@ There is currently no configuration file. All behavior is controlled directly th
 
 The project uses Maven. Java 21 and Maven are required.
 
+From this directory, run:
+
 ```bash
 mvn clean package
 ```
 
-The resulting jar will be located at `target/droprandomizer-1.0-SNAPSHOT.jar`.
+The resulting JAR will be located at `target/droprandomizer-1.0-SNAPSHOT.jar`.
 
 ## Project structure
 
